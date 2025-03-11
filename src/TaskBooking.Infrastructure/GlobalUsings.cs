@@ -1,0 +1,14 @@
+﻿global using MediatR;
+global  using TaskBooking.Domain.Aggregates.Root;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore;
+global using System.Data;
+global using System.Linq;
+global using System.Threading.Tasks;
+global using System.Threading;
+global using System;
+global using TaskBooking.Application.Repository;
+global using TaskBooking.Shared.SeedWork;
+global using Microsoft.Extensions.Logging;
+global using TaskBooking.Application.Projections;
+global using TaskBooking.Infrastructure.Extensions;
